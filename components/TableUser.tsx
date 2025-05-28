@@ -34,7 +34,6 @@ const TableUser = () => {
          rowKey="email"
          scroll={{
             y: 600,
-            x: 'max-content',
         }}
         />
     )
