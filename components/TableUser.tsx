@@ -31,9 +31,10 @@ const TableUser = () => {
          columns={columns} 
          pagination={false}
          loading={loading} 
+         rowKey="email"
          scroll={{
-            y: 600, // Tinggi maksimum table 400px (scroll vertikal jika lebih)
-            x: 'max-content', // Scroll horizontal jika kolom melebihi lebar layar
+            y: 600,
+            x: 'max-content',
         }}
         />
     )
